@@ -9,10 +9,7 @@
   <meta name="author" content="hujiyuta">
 
   
-  <meta name="description" content="Hi guys,
-I got back to my home town and uploading picture. It&#8217;s awesome!
-as you can see SAKURA which stands in meadow.
-">
+  <meta name="description" content="Click on Picture then Go to Page Blog Archives Key words about Me &nbsp;&nbsp;PONKO &nbsp;&nbsp;&nbsp;-1986&#8217;s &nbsp;&nbsp;&nbsp;-Japanese & &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -33,6 +30,22 @@ as you can see SAKURA which stands in meadow.
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+
+
+<!-- Add jQuery library -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<!-- Add fancyBox -->
+ <link rel="stylesheet" href="/stylesheets/jquery.fancybox.css?v=2.0.4" type="text/css" media="screen" />
+ <script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js?v=2.0.4"></script>
+<!-- Add fancyBox jQuery -->
+ <script type="text/javascript">
+  jQuery.noConflict();    // prevents conflicts with Ender.js, use jQuery instead of $
+  jQuery(document).ready(function() {
+      jQuery(".fancybox").fancybox();
+  });
+ </script>
+<!-- End fancyBox insert -->
 
 </head>
 
@@ -69,82 +82,29 @@ as you can see SAKURA which stands in meadow.
   
   
   
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/15/home-town/">Home Town</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
-
-
-<time datetime="2012-11-15T10:51:00+09:00" pubdate data-updated="true">Nov 15<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hi guys,<br>
-I got back to my home town and uploading picture.<br>
-<img src="/images/blog/2011-05-11 15.18.00.jpg"><br>
-It&#8217;s awesome!
-as you can see SAKURA which stands in meadow.</p>
+  
+  
+  
+  
+<div class="content">
+	<div class="main"><br>
+		<h2>Click on Picture then Go to Page</h2>
+<div id="gallery">   
+	
+  <a href="javascript:location.href='/blog/2012/11/15/home-town/'">
+   	<img src="../images/blog/2011-05-11 15.18.00.jpg" width="150" height="150" alt="Home Town"></a>     
+  <a href="javascript:location.href='/blog/2012/12/11/yamagata/'">
+	<img src="../images/blog/2012-10-17 11.47.34.jpg" width="150" height="150" alt="Yamagata"></a>
+  <a href="javascript:location.href='/blog/2012/12/11/yamagata/'">
+	<img src="../images/blog/2012-10-17 12.01.51.jpg" width="150" height="150" alt="Yamagata"></a> 
+  <a href="javascript:location.href='/blog/2012/12/11/yamagata/'">
+	<img src="../images/blog/2012-10-17 12.20.43.jpg" width="150" height="150" alt="Yamagata"></a> 
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/11/11/test/">TEst</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-11-11T14:25:00+09:00" pubdate data-updated="true">Nov 11<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hello World!
-oooi</p>
+	<div id="photo"></div>
+   </div>
 </div>
-  
-  
-
-
-    </article>
-  
+	
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -155,14 +115,14 @@ oooi</p>
   
     <section>
   <h1>Key words about Me</h1>
-	<img src ="/images/blog/IMG_0129.jpg" align="left" width="85" height="90">
+	<img src ="/images/blog/DSC_0328-2.png" align="left" width="85" height="90">
   <p>
 	&nbsp;&nbsp;<b>PONKO</b><br>
   	&nbsp;&nbsp;&nbsp;-1986&#8217;s<br>
     &nbsp;&nbsp;&nbsp;-Japanese<br>
     &nbsp;&nbsp;&nbsp;-Ruby on rails<br>
     &nbsp;&nbsp;&nbsp;-San Francisco<br>
-    &nbsp;&nbsp;&nbsp;-NEET<br>
+   
 
   </p>
 
@@ -172,6 +132,10 @@ oooi</p>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/12/11/yamagata/">Yamagata</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/11/15/home-town/">Home Town</a>
@@ -194,8 +158,11 @@ oooi</p>
     $.domReady(function(){
       getTwitterFeed("Ponko53804132", 10, false);
     });
+      
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+
+
   
     <a href="http://twitter.com/Ponko53804132" class="twitter-follow-button" data-show-count="false">Follow @Ponko53804132</a>
   
@@ -211,7 +178,7 @@ oooi</p>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - hujiyuta -
+  Copyright &copy; 2013 - hujiyuta -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
