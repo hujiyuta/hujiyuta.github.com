@@ -4,7 +4,7 @@
   <title><![CDATA[OPunion.jp]]></title>
   <link href="http://hujiyuta.github.com/atom.xml" rel="self"/>
   <link href="http://hujiyuta.github.com/"/>
-  <updated>2017-03-12T15:23:00+09:00</updated>
+  <updated>2017-03-12T15:34:55+09:00</updated>
   <id>http://hujiyuta.github.com/</id>
   <author>
     <name><![CDATA[hujiyuta]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[new-post]]></title>
+    <link href="http://hujiyuta.github.com/blog/2017/03/12/new-post/"/>
+    <updated>2017-03-12T15:29:00+09:00</updated>
+    <id>http://hujiyuta.github.com/blog/2017/03/12/new-post</id>
+    <content type="html"><![CDATA[<p><body></p>
+
+<div class="content">
+<div class="main">
+あああ<br>
+</div>
+</div>
+
+
+<p></body></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yamagata]]></title>
