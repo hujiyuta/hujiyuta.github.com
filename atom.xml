@@ -4,7 +4,7 @@
   <title><![CDATA[Japan 2 U]]></title>
   <link href="http://hujiyuta.github.com/atom.xml" rel="self"/>
   <link href="http://hujiyuta.github.com/"/>
-  <updated>2013-01-03T20:53:19+09:00</updated>
+  <updated>2013-01-04T14:16:14+09:00</updated>
   <id>http://hujiyuta.github.com/</id>
   <author>
     <name><![CDATA[hujiyuta]]></name>
@@ -72,7 +72,9 @@ as you can see SAKURA which stands in meadow.
     <link href="http://hujiyuta.github.com/blog/2012/11/11/test/"/>
     <updated>2012-11-11T14:25:00+09:00</updated>
     <id>http://hujiyuta.github.com/blog/2012/11/11/test</id>
-    <content type="html"><![CDATA[<p><body></p>
+    <content type="html"><![CDATA[<p><video width='640' height='320' preload='none' controls poster=''><source src='http://s3.imathis.com/video/zero-to-fancy-buttons.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></p>
+
+<p><body></p>
 
 <div class="content">
   <div class="main">
