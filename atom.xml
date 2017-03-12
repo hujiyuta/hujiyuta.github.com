@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Japan 2 U]]></title>
+  <title><![CDATA[OPunion.jp]]></title>
   <link href="http://hujiyuta.github.com/atom.xml" rel="self"/>
   <link href="http://hujiyuta.github.com/"/>
-  <updated>2013-01-04T14:16:14+09:00</updated>
+  <updated>2017-03-12T15:23:00+09:00</updated>
   <id>http://hujiyuta.github.com/</id>
   <author>
     <name><![CDATA[hujiyuta]]></name>
