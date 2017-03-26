@@ -4,7 +4,7 @@
   <title><![CDATA[OPunion.jp]]></title>
   <link href="http://hujiyuta.github.com/atom.xml" rel="self"/>
   <link href="http://hujiyuta.github.com/"/>
-  <updated>2017-03-26T15:52:35+09:00</updated>
+  <updated>2017-03-26T16:12:51+09:00</updated>
   <id>http://hujiyuta.github.com/</id>
   <author>
     <name><![CDATA[hujiyuta]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[学習履歴 財務会計関連の本を読破]]></title>
+    <link href="http://hujiyuta.github.com/blog/2017/03/26/xue-xi-lu-li-%40hui-ji-cai-wu-hui-ji-guan-lian-falseben-wodu-po/"/>
+    <updated>2017-03-26T15:58:00+09:00</updated>
+    <id>http://hujiyuta.github.com/blog/2017/03/26/xue-xi-lu-li-@hui-ji-cai-wu-hui-ji-guan-lian-falseben-wodu-po</id>
+    <content type="html"><![CDATA[<p><body></p>
+
+<div class="content">
+<div class="main">
+仕事で財務諸表の数値を扱うことがあるので、各勘定項目がどのような前提で作られた数値なのか理解を深めることができた。この本は、各トピックに対して原理原則の解説、事例を用いた仕分け処理などの解説が丁寧にされていて、初心者にも理解しやすい内容（実務者向けにも使えそう）になっている。特に、連結精算表の解説はとても参考になった。
+米国の会計の勉強をしていたが、日本の会計については特に勉強していなかったので日本会計基準の理解を深めるための入門書として役に立った。<br>
+</div>
+</div>
+
+
+<p></body></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yamagata]]></title>
