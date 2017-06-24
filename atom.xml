@@ -4,7 +4,7 @@
   <title><![CDATA[OPunion.jp]]></title>
   <link href="http://hujiyuta.github.com/atom.xml" rel="self"/>
   <link href="http://hujiyuta.github.com/"/>
-  <updated>2017-06-24T13:10:06+09:00</updated>
+  <updated>2017-06-24T14:27:54+09:00</updated>
   <id>http://hujiyuta.github.com/</id>
   <author>
     <name><![CDATA[hujiyuta]]></name>
@@ -12,6 +12,87 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CAPMとマーケットリスクプレミアムについて]]></title>
+    <link href="http://hujiyuta.github.com/blog/2017/06/24/capm_market_riskpremium/"/>
+    <updated>2017-06-24T13:22:00+09:00</updated>
+    <id>http://hujiyuta.github.com/blog/2017/06/24/capm_market_riskpremium</id>
+    <content type="html"><![CDATA[<p>企業価値評価において多く採用されるDCF法(Discounted Cash Flow)では、
+将来予測されるキャッシュフローを、加重平均資本コスト（WACC:Weighted Average Cost of Capital）
+によって現在価値に割り引いて価値を評価する。
+WACCを構成する要素と計算式としては、以下の通りである。</p>
+
+<p>①節税効果を考慮した負債コスト<br/>
+②株主資本コスト<br/>
+③株主資本比率<br/>
+④負債比率</p>
+
+<h4>WACCの計算式</h4>
+
+<p><img src="http://hujiyuta.github.com/images/blog/WACC.png" title="WACC" alt="WACC" /></p>
+
+<p>t:　実効税率
+D:　有利子負債
+E:　株主資本（時価総額）
+K:　株主資本コスト</p>
+
+<p>K：株主資本コストについては、
+資本資産評価モデル（CAPM:Capital Asset Pricing Model）によって算出される。</p>
+
+<p><strong>CAPM：　Re = Rf + β（Rm - Rf）</strong></p>
+
+<p>Re:　株主資本コスト
+Rf:　無リスク利子率
+β:　個別企業の市場ポートフォリオに対する感応度
+Rm:　マーケットポートフォリオのリターン</p>
+
+<p>今回は、上記式のマーケットリスクプレミアム「（Rm - Rf）」について調べたメモとなっています。</p>
+
+<p>そもそもマーケットリスクプレミアムとは無リスク資産（国債）に代わる投資資産として、
+市場にある全銘柄に市場時価と同じ構成比になるように分散投資した仮想の株式ポートフォリオ
+の「リスク」に対して投資家が要求する収益率を前提にしている。</p>
+
+<p>ここでの株式ポートフォリオの「リスク」とは、個別銘柄に起因するアンシステマティックリスクは、
+分散投資による効果でアンシステマティックリスクは株式ポートフォリオ内で相殺され
+（例：石油価格が下落して収益が増加する企業と減少する企業）、
+株式ポートフォリオ全体のリスクは株式市場に起因するシステマティックリスクのみとなる。
+このシステマティックリスクは市場全体で共通するリスク（例：為替、金利、景気循環）に
+起因するので分散投資効果でも低減させることはできない。</p>
+
+<p>このシステマティックリスクに対して投資家が要求収益率こそが
+マーケットリスクプレミアム（Rm - Rf）となっている。
+それでは、Rm:マーケットポートフォリオのリターンはどのように推定されるのか。</p>
+
+<p>マーケットリスクプレミアムは、一般的に株式市場は将来の情報も織り込んで株価を形成している前提が置かれている。
+そのため、マーケットリスクプレミアムについては、将来の予測情報を用いることが合理的とされることが多い。
+算出方法はいくつか存在するようだ。</p>
+
+<h4>①ゴードン・モデルによる導出</h4>
+
+<p><img src="http://hujiyuta.github.com/images/blog/gordonmodel_1.png" title="gordonmodel" alt="gordonmodel" /></p>
+
+<p>P: 株価<br/>
+Div: 予想配当<br/>
+k: 期待リターン(マーケットリスクプレミアム)<br/>
+g: 成長率</p>
+
+<p>これをk(マーケットリスクプレミアム)について解いて変形。</p>
+
+<p><img src="http://hujiyuta.github.com/images/blog/gordonmodel_2.png" title="gordonmodel" alt="gordonmodel" /></p>
+
+<h4>②予想ROEをCAPMと同じとする仮定による導出</h4>
+
+<p>・全企業の予想ROEについて求める<br/>
+<strong>予想ROE = 予想純利益　÷ 時価総額</strong></p>
+
+<p>・予想ROE＝CAPMという過程をおく<br/>
+<strong>予想ROE = Rf + β（MRP）　ただし、MRP＝（Rm - Rf）</strong></p>
+
+<p>・MRPについて解く<br/>
+<strong>MRP  = (予想ROE - Rf) ÷  β</strong></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Unlevered βとRelevered β]]></title>
