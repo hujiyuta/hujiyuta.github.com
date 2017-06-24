@@ -4,7 +4,7 @@
   <title><![CDATA[OPunion.jp]]></title>
   <link href="http://hujiyuta.github.com/atom.xml" rel="self"/>
   <link href="http://hujiyuta.github.com/"/>
-  <updated>2017-06-24T14:27:54+09:00</updated>
+  <updated>2017-06-24T14:33:44+09:00</updated>
   <id>http://hujiyuta.github.com/</id>
   <author>
     <name><![CDATA[hujiyuta]]></name>
@@ -101,7 +101,7 @@ g: 成長率</p>
     <id>http://hujiyuta.github.com/blog/2017/06/17/unlevered</id>
     <content type="html"><![CDATA[<h4>Unlevered βとRelevered βについてのメモ</h4>
 
-<p>株主資本コストを算定するにはCAPM（CAMPのメモについてはこちら）によって評価する。</p>
+<p>株主資本コストを算定するにはCAPM（CAMPのメモについては<a href="http://www.opunion.jp/blog/2017/06/24/capm_market_riskpremium/">こちら</a>）によって評価する。</p>
 
 <p><strong>CAPM：　Re = Rf + β（Rm - Rf)</strong></p>
 
